@@ -17,5 +17,7 @@ describe('Создание новой потребности работодат�
         cy.get('body > div:nth-child(15) > div.desktop-modal > div > div.vacancy-need-wrapper > form > div:nth-child(1) > div.form__labels > div > div:nth-child(5) > div > div > div').click()
         cy.get('body > div:nth-child(15) > div.desktop-modal > div > div.vacancy-need-wrapper > form > div:nth-child(1) > div.form__labels > div > div:nth-child(5) > div > div > div.form-select__items.form-select__items--wrap-top > div:nth-child(3)').click()
         cy.get('body > div:nth-child(15) > div.desktop-modal > div > div.vacancy-need-wrapper > form > div.form__buttons > button').scrollIntoView().click({force: true})
+
+        cy.get('#app > div.page > div > div.page-navigation > div.page-nav__mobile > div:nth-child(7) > section > div > div.infinite-loader.need-list > div:nth-child(1) > div > div.need-item__footer-wrapper > div > div.need-footer__button-wrapper > button.button.button__background-color-green.button__size-small.button__color-white').click()
     })
 })
